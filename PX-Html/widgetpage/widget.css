@@ -1,0 +1,61 @@
+#picture-css
+{
+    background-image: url("Images/PXDemo.jpg");
+    margin:0auto;
+}
+body{
+    background: #F4f4f4;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.container
+{
+  width: 780px;
+  margin:0 auto;
+  background: rgb(211, 216, 220);  
+}
+
+.header{
+    padding: 25px 0 20px 40px;
+    border: 2px solid black;
+    background: whitesmoke;
+}
+
+.menu{
+    background-color: black;
+    padding: 5px 0 5px 40px;
+}
+.menu a{
+    color : white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+.menu a:hover{
+    background-color: #F4f4f4;
+    color: black;
+}
+
+.dragred
+{
+    width: 150px;
+     height: 150px;
+      padding: 0.5em;
+      background-color: red;
+}
+
+.dragblue
+{
+    width: 150px;
+     height: 150px;
+      padding: 0.5em;
+      background-color: blue;
+}
+.draggreen
+{
+    width: 150px;
+     height: 150px;
+      padding: 0.5em;
+      background-color: green;
+}
