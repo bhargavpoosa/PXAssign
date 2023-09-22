@@ -51,7 +51,7 @@ input[type="checkbox"] {
     gap: 10px;
 }
 
-button {
+#submit-btn {
     position: absolute;
     left: 850px;
     margin-top: 15px;
