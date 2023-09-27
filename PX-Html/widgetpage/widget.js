@@ -6,13 +6,16 @@
 
 $( function() {
     $( ".dragred").draggable({
+            stop : function r() {aptrinsic('track','DragCustomevent',{"name":"red drag", "color" : 'red'});}
     })
   } );
   $( function() {
     $( ".dragblue").draggable({
+          stop : function r() {aptrinsic('track','DragCustomevent',{"name":"blue drag", "color" : 'blue'});}
     })
   } );
   $( function() {
     $( ".draggreen").draggable({
+          stop : function r() {aptrinsic('track','DragCustomevent',{"name":"green drag", "color" : 'green'});}
     })
   } );
