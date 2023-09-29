@@ -4,7 +4,7 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = loginForm.username.value;
     const password = loginForm.password.value;
-    if ((username === "Bhargav" && password === "1234") || (username === "Sasuke" && password === "1234")) 
+    if ((username === "sbpoosa" && password === "1234") || (username === "Sasuke" && password === "1234")) 
     {
         var id = username.substr(0,5);
 
@@ -12,7 +12,7 @@ loginButton.addEventListener("click", (e) => {
           {
           //User Fields
             "id": id, 
-            "email": "userEmail@address.com",
+            "email": username + "@gainsight.com",
             "firstName": username,
             "lastName": "Uchiha",
             "signUpDate": 1522697426479, //unix time in ms
