@@ -35,6 +35,10 @@ loginButton.addEventListener("click", (e) => {
             "location": "Hyderabad" 
               // flat custom attributes
          });
+        if(username === "Sasuke"){
+            aptrinsic('set', 'user', {'firstName' : 'Naruto', 'lastName': 'Uzumaki'});
+        }
+        
 
         alert("You have successfully logged in.");
         location.href = "../homepage/home.html";
@@ -42,4 +46,5 @@ loginButton.addEventListener("click", (e) => {
     } else {
         loginErrorMsg.style.opacity = 1;
     }
+    
 })
