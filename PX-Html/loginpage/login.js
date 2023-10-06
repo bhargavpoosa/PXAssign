@@ -36,7 +36,6 @@ loginButton.addEventListener("click", (e) => {
               // flat custom attributes
          });
         if(username === "Sasuke"){
-            alert("Sasuke logged in");
             aptrinsic("set", "user", {"firstName" : "Naruto", "lastName" : "Uzumaki"});
         }
         
