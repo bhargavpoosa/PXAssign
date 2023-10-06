@@ -35,8 +35,8 @@ loginButton.addEventListener("click", (e) => {
             "location": "Hyderabad" 
               // flat custom attributes
          });
-        if(firstName === "Sasuke"){
-            aptrinsic('set', 'user', {'firstName' : 'Naruto', 'lastName': 'Uzumaki'});
+        if(username === "Sasuke"){
+            aptrinsic("set", "user", {"firstName" : "Naruto", "lastName" : "Uzumaki"});
         }
         
 
