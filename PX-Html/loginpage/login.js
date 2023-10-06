@@ -31,7 +31,9 @@ loginButton.addEventListener("click", (e) => {
           //Account Fields
             "id":"IBM", //Required
             "name":"International Business Machine",
-            "Program": "Platinum" // flat custom attributes
+            "Program": "Platinum",
+            "location": "Hyderabad" 
+              // flat custom attributes
          });
 
         alert("You have successfully logged in.");
