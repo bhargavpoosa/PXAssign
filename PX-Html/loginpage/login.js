@@ -4,11 +4,17 @@ loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = loginForm.username.value;
     const password = loginForm.password.value;
-    let fatherName;
-    if(username==="sbpoosa")
+    let fatherName, accountID, accountName;
+    if(username==="sbpoosa"){
         fatherName = "xyz";
-    else
+        accountID = "IBM";
+        accountName = "International Business Machine";
+    }
+    else{
         fatherName= "abc";
+        accountID = "Gainsight";
+        accountName = "Gainsight";
+    }
     if ((username === "sbpoosa" && password === "1234") || (username === "Sasuke" && password === "1234")) 
     {
         var id = username.substr(0,5);
@@ -29,8 +35,8 @@ loginButton.addEventListener("click", (e) => {
           },
           {
           //Account Fields
-            "id":"IBM", //Required
-            "name":"International Business Machine",
+            "id": accountID, //Required
+            "name": accountName,
             "Program": "Platinum",
             "location": "Hyderabad" 
               // flat custom attributes
