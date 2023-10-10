@@ -6,7 +6,7 @@
 
 $( function() {
     $( ".dragred").draggable({
-            stop : function r() {aptrinsic('track','DragCustomevent',{"name":"red drag", "color" : 'red'});}
+            stop : function r() {aptrinsic('track','DragCustomevent',{"name":"red drag", "color" : 'red', "totalTimes": 0});}
     })
   } );
   $( function() {
